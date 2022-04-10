@@ -8,7 +8,7 @@ interface jsonapi {
     @GET(
         "/feed" +
                 "/{id}" +
-                "/?token=64058b186dcdf9e05f2abc097493cd51f0b50d93"
+                "/?token=api_key"
     )
     fun fetchContents(@Path("id") name: String): Call<String>
 
